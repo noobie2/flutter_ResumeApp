@@ -10,7 +10,7 @@ class ProfilePage extends StatefulWidget {
 
 class _ProfilePageState extends State<ProfilePage> {
   final String name = 'Apoorv Singh';
-  final String email = 'apoorv-singh@outook.com';
+  final String email = 'email';
   final String phoneNo = '+91 7656 764 543';
   final String aboutMe =
       'I\'m a self taught flutter App Developer, who\'s had a very keen interest in App Development, Machine Learning as well as creative tasks like video production and editing. Thank You for checking my app out.';
@@ -127,7 +127,7 @@ class _ProfilePageState extends State<ProfilePage> {
                   icon: Icon(LineAwesomeIcons.facebook_square,
                       color: Colors.blue, size: 35),
                   onPressed: () {
-                    _launchURL('https://www.facebook.com/krazyapoorv/');
+                    _launchURL('https://www.facebook.com/myprofile/');
                   },
                 ),
                 IconButton(
